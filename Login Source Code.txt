@@ -1,0 +1,12 @@
+
+
+      if (textBox1.Text=="admin" && textBox2.Text == "123")
+            {
+                Main mn = new Main();
+                mn.Show();
+            }
+
+            else if (textBox1.Text != "admin" || textBox2.Text != "123")
+            {
+                MessageBox.Show("Invalid username or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
